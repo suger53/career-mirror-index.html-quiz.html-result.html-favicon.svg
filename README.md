@@ -1,3 +1,7 @@
+index.html
+quiz.html
+result.html
+favicon.svg
 <!DOCTYPE html>
 <html lang="ja">
 <head>
