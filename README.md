@@ -132,3 +132,137 @@ CAREER MIRROR
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Career Mirror - 診断</title>
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+<style>
+body{
+    margin:0;
+    font-family:"Segoe UI","Noto Sans JP",sans-serif;
+    background: radial-gradient(circle at top, #0B1220, #05070F);
+    color:#E5E7EB;
+    padding:30px 20px;
+}
+
+.container{
+    max-width:700px;
+    margin:0 auto;
+}
+
+/* ヘッダー */
+.header{
+    margin-bottom:25px;
+}
+
+.logo{
+    font-size:12px;
+    letter-spacing:3px;
+    color:#93C5FD;
+}
+
+/* カード */
+.card{
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    padding:20px;
+    border-radius:16px;
+    margin-bottom:15px;
+}
+
+/* 質問 */
+.q{
+    font-size:16px;
+    margin-bottom:12px;
+}
+
+/* 選択肢 */
+label{
+    display:block;
+    margin:8px 0;
+    color:#CBD5E1;
+    cursor:pointer;
+}
+
+input{
+    margin-right:8px;
+}
+
+/* ボタン */
+.btn{
+    width:100%;
+    padding:16px;
+    border:none;
+    border-radius:12px;
+    background: linear-gradient(90deg,#2563EB,#22C55E);
+    color:white;
+    font-weight:600;
+    cursor:pointer;
+    margin-top:20px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+}
+
+/* 戻る */
+.back{
+    display:inline-block;
+    margin-bottom:20px;
+    color:#93C5FD;
+    text-decoration:none;
+    font-size:13px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- 戻る -->
+<a class="back" href="index.html">← トップに戻る</a>
+
+<!-- ロゴ -->
+<div class="header">
+<div class="logo">CAREER MIRROR / DIAGNOSIS</div>
+</div>
+
+<form id="quizForm">
+
+<!-- Q1 -->
+<div class="card">
+<div class="q">Q1. 仕事では成果を最優先に考える</div>
+<label><input type="radio" name="q1" value="5"> そう思う</label>
+<label><input type="radio" name="q1" value="3"> どちらでもない</label>
+<label><input type="radio" name="q1" value="1"> そう思わない</label>
+</div>
+
+<!-- Q2 -->
+<div class="card">
+<div class="q">Q2. チームよりも個人で結果を出す方が得意だ</div>
+<label><input type="radio" name="q2" value="5"> そう思う</label>
+<label><input type="radio" name="q2" value="3"> どちらでもない</label>
+<label><input type="radio" name="q2" value="1"> そう思わない</label>
+</div>
+
+<!-- Q3 -->
+<div class="card">
+<div class="q">Q3. 周囲の意見をよく聞いて判断する</div>
+<label><input type="radio" name="q3" value="5"> そう思う</label>
+<label><input type="radio" name="q3" value="3"> どちらでもない</label>
+<label><input type="radio" name="q3" value="1"> そう思わない</label>
+</div>
+
+<!-- Q4 -->
+<div class="card">
+<div class="q">Q4. 責任のある役割を任されると燃える</div>
+<label><input type="radio" name="q4
